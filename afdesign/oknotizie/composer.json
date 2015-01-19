@@ -1,0 +1,32 @@
+{
+    "name": "afdesign/oknotizie",
+    "type": "phpbb-extension",
+    "description": "Inserisce il pulsante al primo post di ogni topic, che permette di proporre l'argomento sul popolare Ok Notizie di Virgilio. Preleva direttamente il titolo della pagina e il link.",
+    "homepage": "https://alessandroferrara.it",
+    "version": "1.0",
+    "time": "18-01-2015",
+    "license": "GPL-2.0",
+    "authors": [
+        {
+            "name": "AF Design",
+            "email": "postmaster@alessandroferrara.it",
+            "homepage": "http://alessandroferrara.it",
+            "role": "Developer"
+        }
+ 
+    ],
+    "require": {
+        "php": ">=5.3"
+    },
+    "extra": {
+        "display-name": "Ok Notizie",
+        "soft-require": {
+             "phpbb/phpbb": "3.1.2"
+        },
+        "version-check": {
+            "host": "alessandroferrara.it",
+            "directory": "/version/",
+            "filename": "oknotizie.json"
+        }
+    }
+}
